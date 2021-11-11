@@ -64,7 +64,7 @@ body {
   position: absolute;
   left: 2;
   color: #fff;
-  margin-top: -5px;
+  margin-top: -25px;
 }
 .screen_chat {
   background-image: url(img/background.png);
@@ -79,11 +79,12 @@ body {
 
 .text_of_chat {
   background-color: rgb(71, 65, 65);
-  display: inline-block;
+  display: block;
   padding: 1px 20px;
   font-weight: 100;
   margin: 30px;
   border-radius: 20px;
+  width: 70px;
 }
 
 .footer_of_type {
@@ -121,7 +122,7 @@ body {
 
 .info_of_contact {
   top: 2;
-  position: fixed;
+  /* position: fixed; */
   display: inline-block;
   color: #fff;
   font-size: 18px;
@@ -129,6 +130,7 @@ body {
   margin-left: 70px;
   display: grid;
   font-weight: 200;
+  height: 50px;
 }
 
 .clk{
