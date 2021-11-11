@@ -1,0 +1,137 @@
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: rgb(26, 26, 26);
+}
+.img_of_profule_pic {
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  margin: 10px;
+}
+
+.header {
+  background-color: rgb(58, 56, 56);
+}
+::placeholder {
+  color: white;
+}
+.search_input {
+  color: white;
+  background-color: rgb(98, 98, 98);
+  padding: 10px;
+  margin: 10px 30px 0 10px;
+  width: 300px;
+  border-radius: 15px;
+  display: flex;
+  border-style: none;
+
+}
+
+.container-of-list {
+  position: relative;
+  width: 50%;
+  height: 100%;
+  border-radius: 15px;
+  margin: 15px;
+  background-color: #090e11;
+}
+.container-of-list:hover {
+  background-color: rgb(34, 34, 34);
+}
+
+.time {
+  font-size: 13px;
+  right: 0;
+  position: absolute;
+  color: white;
+  margin-top: -50px;
+}
+
+.container_of_chat_screen {
+  right: 0;
+  position: absolute;
+  width: 800px;
+  top: 0;
+  height: 87.5%;
+  padding: 50px;
+  margin-top: 15px;
+}
+
+.header_of_chat {
+  top: 0;
+  position: absolute;
+  left: 2;
+  color: #fff;
+  margin-top: -5px;
+}
+.screen_chat {
+  background-image: url(img/background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  color: white;
+  font-size: 20px;
+  width: 106%;
+  height: 97%;
+}
+
+.text_of_chat {
+  background-color: rgb(71, 65, 65);
+  display: inline-block;
+  padding: 1px 20px;
+  font-weight: 100;
+  margin: 30px;
+  border-radius: 20px;
+}
+
+.footer_of_type {
+  background-color: rgb(66, 66, 62);
+  padding: 15px;
+  width: 102%;
+  border-radius: 15px;
+}
+
+.input_chat::placeholder{
+    font-size: 15px;
+    margin-right: 15px;
+}
+
+.input_chat {
+  width: 760px;
+  height:44px;
+  border-radius: 15px;
+  background-color: rgb(37, 36, 36);
+  font-weight: 400;
+  color: white;
+  border-style: none;
+  font-size: 21px;
+}
+
+.btn_send {
+  padding: 10px;
+  border-radius: 100%;
+  border-style: none;
+  background-color: turquoise;
+  color: #fff;
+  font-size: 25px;
+  width: 44px;
+}
+
+.info_of_contact {
+  top: 2;
+  position: fixed;
+  display: inline-block;
+  color: #fff;
+  font-size: 18px;
+  margin-top: -55px;
+  margin-left: 70px;
+  display: grid;
+  font-weight: 200;
+}
+
+.clk{
+    font-size: 10px;
+ 
+}
